@@ -1,0 +1,83 @@
+.content_title{
+	width: 150px;
+	height: 24px;
+	font-size: 18px;
+	color: #189963;
+	float: left;
+	margin: 20px 0 18px 28px;
+}
+.content_btn{
+	width: 300px;
+	height: 40px;
+	float: right;
+	margin-top: 14px;
+}
+.content_btn button{
+	width: 84px;
+	height: 28px;
+	background: #189963;
+	color: #fff;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+}
+.content_search{
+	float: left;
+	margin: 20px 30px;
+	width: 725px;
+	height: 43px;
+	border: 1px solid red;
+}
+.content_detail form{
+	width: 725px;
+	height: 38px;
+	margin: 20px 30px;
+	border: 1px solid #ccc;
+}
+.content_detail table{
+	width: 725px;
+	margin: 20px 30px;
+}
+.search_btn{
+	width: 40px;
+	height: 40px;
+	border: 0;
+	cursor: pointer;
+	background: url(../images/button_search.png);
+}
+.content_search_input{
+	width: 680px;
+	height: 38px;
+	float: right;
+	color: #ccc;
+	border: 0;
+}
+.content_detail th,td{
+	min-width: 100px;
+	height: 70px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	padding: 5px 10px;
+	color: #666;	
+
+}
+.tr_header  th{
+	border: 1px solid #ccc;
+	color: #fff;
+	background: #666666;
+	font-size: 14px;
+	height: 44px;
+}
+.operate button{
+	background: #fff;
+	border: none;
+	color: #189963;
+	cursor: pointer;
+}
+.table_tips{
+	margin-top: 30px;
+	text-align: center;
+	clear: both;
+	color: #969696;
+	font-size: 14px;
+}

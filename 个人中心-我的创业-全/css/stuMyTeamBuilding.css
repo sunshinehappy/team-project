@@ -1,0 +1,128 @@
+.content_title{
+	width: 150px;
+	height: 24px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #189963;
+	float: left;
+	margin: 18px 0 18px 25px;
+}
+.content_btn{
+	width: 80px;
+	height: 14px;
+	float: right;
+	margin: 24px 32px 0 0;
+}
+.content_btn button{
+	width: 80px;
+	height: 14px;
+	background: #fff;
+	color: #189963;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	letter-spacing:2px;
+}
+ .content_detail form{
+	width: 692px;
+	height: 560px;
+	margin: 28px 60px 48px 34px;
+	padding-left: 10px;
+	position: relative;
+
+}
+.team_info{
+	width: 400px;
+	height: 436px;	
+	float: left;
+	font-size: 14px;
+	color: #4c4c4c;
+}
+.team_info li {
+	margin-bottom: 12px;
+	font-size: 14px;
+}
+.team_info input,.team_info select{
+	height: 32px;
+}
+.team_info textarea{
+	height: 84px;
+}
+.input_box{
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	width: 304px;
+	background-color: #f3f3f6;
+} 
+.laber_textarea{
+	position: relative;
+	top:-60px;
+}
+.member_invite{
+	display: inline-block;
+	margin:14px 0 0 50px;
+}
+.member_invite input{
+	height: 10px;
+}
+.textarea_logo{
+	position: absolute;
+	top:57px;
+	left: 352px;
+	display: none;
+}
+/*用于定位textarea里的图片*/
+.special_li{
+	position:relative; 
+}
+.team_logo{
+	width: 244px;
+	height: 154px;
+	position: relative;
+	left: 430px;
+	font-size: 14px;
+	color: #4c4c4c;
+}
+.team_logo span{
+	position: absolute;
+	top:10px;
+	left: 10px;
+}
+#photo_upload{
+	width: 122px;
+	height: 152px;
+	background: #B4B4B4;
+	cursor: pointer;
+	position: absolute;
+	left: 120px;
+
+}
+#photo_upload span{
+	text-align: center;
+	display: inline-block;
+	margin: 50px 10px;
+}
+.team_save{
+	width: 180px;
+	height: 38px;
+	position: absolute;
+	left: 284px;
+	bottom: 54px;
+}
+.team_save input{
+	width: 84px;
+	height: 38px;	
+	font-size: 14px;
+	border: 0;
+	cursor: pointer;
+	letter-spacing:2px;
+}
+.submit_btn{
+	border-radius: 5px;
+	color: #fff;
+	background: #189863;
+}
+.reset_btn{	
+	background: #fff;
+	color: #969696;
+}

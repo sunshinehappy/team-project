@@ -1,0 +1,63 @@
+.congnitive_w {
+	background:url(../images/r_bg1.gif)no-repeat;
+	width:100%;
+}
+.maincontent .mainfirst span {
+	display: block;
+	height: 56px;
+	line-height: 56px;
+}
+.mainfirst {
+	background-color: #F5F5F5;
+	overflow: hidden;
+	border-bottom: 1px solid #E3E3E3;
+	border-right: 1px solid #E3E3E3;
+	margin-bottom:20px;
+}
+.mainfirst p {
+	line-height: 20px;
+	padding-right: 50px;
+}
+.mainfirst img {
+	margin-right: 20px;
+}
+.mainfirst .involvednumber {
+	padding-left: 500px;	
+}
+.evaluation {
+	text-align: center;
+	color: #fff;
+	width: 120px;
+	height: 32px;
+	line-height: 32px;
+	background-color: #32B16E;
+	position: relative;
+	bottom: -10px;
+	right: 0px;
+
+}
+.nomore {
+	color: #AFB0B1;
+	text-align: center;
+	height: 40px;
+	line-height: 54px;
+}
+.maincontent .nomore1 {
+	color: #AFB0B1;
+	background-color:#F5F5F5;
+	text-align: left;
+	height: 40px;
+	line-height: 40px;
+}
+.maincontent .nomore1 input {
+	background-color:#F5F5F5;
+	height: 40px;
+	line-height: 40px;
+	width: 250px;
+}
+.maincontent .nomore1 .surch {
+	background: url(../images/r3_c3.gif)no-repeat;
+	display: block;
+	height: 39px;
+	width: 39px;
+}

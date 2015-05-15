@@ -1,0 +1,145 @@
+body,h1,h2,h3,h4,h5,p,ul,ol,dl,dt,dd,form,input,textarea,th,td,select { margin:0;padding:0;}
+em { font-style:normal}
+a { text-decoration:none;}
+li { list-style:none;}
+img { border:none; vertical-align:top;}
+table{ border-collapse:collapse;}
+textarea{ resize:none;overflow:auto;}
+*{font-family:'微软雅黑';}
+#nav {
+	margin:0 auto;
+	width:1349px;
+	height:128px;
+	background:url(../images/nav_bg.png);
+	position:relative;
+}
+.nav {
+	margin-left:187px;
+}
+.pro {
+	position:absolute;
+	top:10px;
+	left:190px;
+	z-index:5;
+}
+.dream {
+	position:absolute;
+	top:10px;
+	z-index:5;
+	left:950px;
+}
+.nav li {
+	width:130px;
+	height:30px;
+	float:left;
+	text-align:center;
+	line-height:28px;
+	margin:98px 3px 0 1px;
+	background:white;
+	cursor:pointer;
+	font-size:16px;
+}
+#nav .nav .current_tab {
+	background:#4C4C4C;
+	color:white;
+}
+#wrap {
+	margin:0 auto;
+	padding:20px;
+	padding-bottom:0;
+	width:990px;
+	height:auto;
+	overflow:auto;
+	margin-bottom:40px;
+}
+#cont {
+	border:1px solid #E0E0E0;
+	padding:40px 170px;
+	overflow:auto;
+	margin:10px;
+	margin-bottom:0;
+}
+.route {
+	margin-left:7px;
+	margin-bottom:30px;
+}
+.route li {
+	float:left;
+	margin:2px;
+	font-size:13px;
+}
+.route a {
+	color:#7A7A7A;
+}
+.route a:hover {
+	color:#333333;
+}
+#three_pic {
+	width:780px;
+	height:47px;
+}
+#three_pic img {
+	margin-right:-27px;
+}
+.first_pic {
+	position:relative;
+	top:-10px;
+}
+.third_pic {
+	position:relative;
+	top:-3px;
+}
+.trusting_tiitle {
+	width:105px;
+	height:30px;
+	background:url(../images/red_arrow.png) no-repeat left 35%;
+	text-align:right;
+	margin:40px auto 10px 50px;
+}
+.font_4C {
+	color:#4C4C4C;
+	font-size:18px;
+}
+.font_16px {
+	font-size:16px;
+}
+.pro_left {
+	float:left;
+	text-align:right;
+	width:120px;
+	padding-left:60px;
+	margin-right:30px;
+}
+.pro_right {
+	float:left;
+	width:400px;
+	text-align:justify;
+	margin-bottom:30px;
+}
+.pro_right li,.pro_left li {
+	margin-bottom:20px;
+}
+.letter-spacing {
+	letter-spacing:1px;
+}
+#send_btn {
+	background:#069962;
+	color:white;
+	display:block;
+	float:left;
+	margin-left:350px;
+	width:105px;
+	height:40px;
+	border:none;
+}
+#return {
+	width:100px;
+	height:40px;
+	float:right;
+	margin-right:50px;
+	text-align:center;
+	line-height:38px;
+}
+#return a {
+	color:#4C4C4C;
+}

@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:"黑体", "微软雅黑";
+	}
+*{
+	margin:0px;
+	padding:0px;
+	}
+a{
+	text-decoration:none;
+	}
+.invitation{
+	width:860px;
+	height:550px;
+	/*background:#FCF;*/
+	margin:334px auto;
+	color:#323232;
+	box-shadow:0px 0px 3px #999;
+	-moz-box-shadow:0px 0px 3px #999;
+	-webkit-box-shadow:0px 0px 3px #999;
+	-ms-box-shadow:0px 0px 3px #999;
+	}
+.invitation .title{
+	width:850px;
+	height:50px;
+	background:#eee;
+	padding-left:10px;
+	line-height:50px;
+	font-size:18px;
+	}
+/************这里是sidebar部分********/
+.invitation .sidebar{
+	position:absolute;
+	width:170px;
+	height:500px;
+	background:#999;
+	font-size:14px;
+	}
+.invitation .sidebar ul li{
+	list-style:none;
+	line-height:40px;
+	padding-left:25px;
+	width:145px;
+	height:50px;
+	}
+.invitation .sidebar ul li a{
+	display:block;
+	color:#fff;
+	}
+.invitation .sidebar .current{
+	background:#b7b7b7;
+	}
+/************下面是第一个main部分********/
+.invitation .main{
+	width:690px;
+	height:500px;
+	/*background:yellow;*/
+	float:right;
+	color:#646464;
+	font-size:12px;
+	}
+.invitation .main .part-1{
+	position:relative;
+	width:620px;
+	height:30px;
+	padding:10px 20px 10px 50px;
+	border-bottom:1px solid #999;
+	}
+.part-1 .picture{
+	display:block;
+	width:14px;
+	height:16px;
+	/*background:green;*/
+	float:left;
+	background:url(../images/inv-box.png) no-repeat bottom center;
+	}
+.part-1 .tip{
+	float:left;
+	}	
+.part-1 .person{
+	position:absolute;
+	right:50px;
+	}	
+.person .count{
+	margin:0px 5px;
+	color:orange;
+	}
+.invitation .main .part-2{
+	width:640px;
+	height:200px;
+	/*height:auto;*/
+	border-bottom:1px solid #999;
+	padding:10px 0px 50px 50px;
+	font-size:12px;
+	}
+.part-2 ul li{
+	position:relative;
+	margin:20px 60px 20px 0px;
+	display:inline-block;
+	list-style:none;
+	float:left;
+	width:55px;
+	height:70px;
+	text-align:center;
+	/*background:red;*/
+	}
+.part-2 ul li .head{
+	}
+.part-2 ul li img{
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	overflow:hidden;
+	}		
+.part-2 .image{
+	position:absolute;
+	top:-8px;
+	right:-4px;
+	width:16px;
+	height:18px;
+	background:url(../images/inv-box.png) no-repeat;
+	/*background:url(images/head-right.png) no-repeat;*/
+	}	
+.part-2 .image-two{
+	background:url(inv-box1.png);
+	}
+.invitation .main .part-3{
+	width:260px;
+	height:35px;
+	text-align:center;
+	margin:50px auto;
+	}
+.part-3 .two a{
+	display:block;
+	float:left;
+	margin-right:10px;
+	width:110px;
+	height:35px;
+	text-align:center;
+	line-height:34px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	font-size:18px;
+	color:#fff;
+	}	
+
+.part-3 .invites a{
+		background:#39af6f;
+}
+.part-3 .delete a{
+		background:#c8c8c8;
+}
+/************下面是第二个main部分********/
+.main .quick{
+	margin-left:40px;
+	font-size:14px;
+	}	
+.main .qq{
+	margin-top:22px;
+	width:330px;
+	height:32px;
+	/*background:red;*/
+	}
+.main .link{
+	border:1px solid #ccc;
+	}		
+.main .copy a{
+	display:block;
+	text-align:center;
+	line-height:30px;
+	width:50px;
+	height:32px;
+	color:#fff;
+	background:#2baa3f;
+	float:right;
+	}	
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

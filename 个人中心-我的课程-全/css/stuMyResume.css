@@ -1,0 +1,341 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,h1,h2,h3,h4,h5,p,ul,ol,dl,dt,dd,form,input,textarea,th,td,select { margin:0;padding:0;}
+em { font-style:normal}
+a { text-decoration:none;}
+li { list-style:none;}
+img { border:none; vertical-align:top;}
+table{ border-collapse:collapse;}
+textarea{ resize:none;overflow:auto;}
+.shadow{
+	border: 1px solid #DDD;
+	box-shadow: 0 0 4px #DDD;
+    -moz-box-shadow: 0 0 4px #DDD;
+    -webkit-box-shadow: 0 0 4px #DDD;
+}
+body{
+	margin:0 auto;
+	padding:0;
+	font-family:"黑体";
+	font-family:"微软雅黑";
+}
+
+.user{
+	margin-top:0;
+	width:100%;
+	height:150px;
+	background:#03F;
+}
+#container{
+	margin:0 auto;
+	width:1008px;
+	height:1260px;
+	color:#999999;
+	font-size:12px;
+}
+#load{
+	width:100%;
+	height:34px;
+	color:#4c4c4c;
+	font-size:12px;
+	line-height:34px;
+}
+#load a{
+	color:#4c4c4c;
+}
+
+#myresume{
+	float:left;
+	margin-left:20px;
+	width:784px;
+/*	height:1189px;	*/
+    height：:auto;
+	font-size:14px;
+	color:#323232;
+}		
+#tab{
+	width:100%;
+	height:60px;
+	font-size:16px;
+	border-bottom:1px solid #CCC;
+}
+#tab li{
+	margin-top:14px;
+	margin-left:-1px;
+	float:left;
+	height:26px;
+	width:105px;
+	text-align:center;
+	line-height:30px;	
+	color:#4d4d4d;
+	border-left:1px solid #CCC;
+}
+.taba{
+	color:#999999;
+}
+.taba a{
+	color:#999999;
+}
+.tabcourse{
+	font-size:18px;
+	color:#323232;
+}
+.tabcourse a{
+	font-size:18px;
+	color:#323232;
+}
+#resumehead{
+	width:100%;
+	height:50px;
+	}
+#resumehead .myresume{
+	float:left;
+	margin-left:25px;
+	margin-top:15px;
+	width:68px;
+	height:20px;
+	font-size:16px;
+	color:#323232;
+	text-align:center;
+	line-height:20px;
+	display:block;
+	}
+#resumehead .resumecom{
+	float:left;
+	margin-left:5px;
+	margin-top:15px;
+	width:63px;
+	height:20px;
+	color:#3f3f3f;
+	text-align:center;
+	font-size:12px;
+	line-height:20px;
+	display:block;
+	}
+#resumehead .resume{
+	float:left;
+	margin-left:3px;
+	margin-top:15px;
+	width:30px;
+	height:20px;
+	color:#36b421;
+	text-align:center;
+	font-size:12px;
+	line-height:20px;
+	display:block;
+	}
+#resumepic{
+	whith:100%;
+	height:131px;
+}
+#resumepic img{
+	float:left;
+	whith:131px;
+	height:121px;
+	margin-left:335px;
+}
+.striping{
+	width:100%;
+	height:25px;
+	background:url(../images/striping.png);
+}
+.striping_title{
+	float:left;
+	margin-left:74px;
+	color:#323232;
+}
+.compile{
+	float:right;
+	width:64px;
+	height:20px;
+	color:#7f7f7f;
+}	
+#message{
+	height:237px;
+	width:100%;
+}
+#compile-message{
+	height:237px;
+	width:100%;
+	color:#656565;
+	display:none;
+}
+#expect,#education{
+	height:192px;
+	width:100%;
+	color:#656565;
+}
+#compile-expect{
+	height:192px;
+	width:100%;
+	display:none;
+}
+#compile-education{
+	height:180px;
+	width:100%;
+	display:none;
+}
+#adventure,#experience{
+	height:90px;
+	width:100%;
+}
+#compile-adventure {
+	height:122px;
+	width:100%;
+	display:none;
+}
+#compile-experience{
+	height:260px;
+	width:100%;
+	display:none;
+	border:1px solid #0F0;
+}
+#describe{
+	height:134px;
+	width:100%;
+	color:#d2d2d2;
+}
+#compile-describe{
+	height:134px;
+	width:100%;
+	color:#d2d2d2;
+	display:none;
+} 
+.nomessage{
+	margin-top:20px;
+	margin-left:86px;
+	width:664px;
+	height:68px;
+	color:#7f7f7f;
+}
+#message ul,#compile-message  ul{
+	padding:0;
+	height:auto;
+}
+#expect ul,#compile-expect  ul,#compile-adventure  ul{
+	padding:0;
+	height:auto;
+}
+#education ul,#compile-education ul,#compile-experience  ul{
+	padding:0;
+	height:auto;
+}
+#message li,#compile-message li{
+	height:50px;
+	line-height:50px;
+}
+#expect li,#compile-expect li{
+	height:50px;
+	line-height:50px;
+}
+#compile-experience li,#compile-adventure  li{
+	height:42px;
+	line-height:42px;
+}
+#education li ,#compile-education li{
+	height:48px;
+	line-height:48px;
+}
+.nameone{
+	float:left;
+	width:154px;
+	text-align:right;
+}
+.valueone{
+	float:left;
+	margin-left:16px;
+	width:190px;
+	text-align:left;
+}	
+.nametwo{
+	float:left;
+	width:100px;
+	text-align:right;
+}
+.valuetwo{
+	float:left;
+	margin-left:16px;
+	width:200px;
+	text-align:left;	
+}
+.namethree{
+	float:left;
+	width:70px;
+	text-align:right;
+}
+.valuethree{	
+	margin-top:90px;
+	width:680px;
+	height:114px;
+	text-align:left;	
+}
+.itermdescript{
+	width:100%;
+	height:27px;
+	margin-left:96px;
+	line-height:27px;
+}
+.iterm{
+	height:84px;
+	width:424px;
+	color:#656565;
+	margin-left:96px;
+	border:1px solid #999999;
+	text-align:center;
+}
+.mydescription{
+	height:68px;
+	width:580px;
+	color:#656565;
+	margin-left:96px;
+	border:1px solid #999999;
+}
+.jobtext{
+	width:160px;
+	height:28px;
+/*	border-radius:4px;*/
+	border:1px solid #999999;
+}
+.btn{	
+	width:100%;
+	height:66px;
+	text-align:right; 
+	line-height:46px;
+	display:none;
+}
+.submit{
+	width:60px;
+	height:30px;
+	color:#f2faf6;
+	background:#32b16c;
+	border:none;
+	border-radius:2px;
+}
+.reset{
+	width:60px;
+	height:30px;
+	color:#323232;
+	border:none;
+	border-radius:2px;
+	background:#ffffff;	
+}
+.year{
+	width:88px;
+	height:28px;
+	color:#999999;
+	background:#ffffff;
+}
+.mouth{
+	width:58px;
+	height:28px;
+	color:#999999;
+	background:#ffffff;
+}
+
+
+
+
+
+
+

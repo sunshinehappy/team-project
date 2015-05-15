@@ -1,0 +1,59 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{font-size:12px;font-family: "微软雅黑";}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;border:none; background:none;}
+textarea{resize:none;}
+.font-16 {font-size: 16px;}
+.font-14 {font-size: 14px;}
+.font-18 {font-size: 18px;}
+.font-20 {font-size: 20px;}
+*{padding: 0;margin: 0;}
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;}
+.congnitive_w {
+	background:url(../images/bg_t1_02.png)no-repeat;
+	width:100%;
+}
+.shine {
+	background:url(../images/bg_t.png)no-repeat;
+    width:1000px;
+    height: 148px;
+    margin: 0 auto;
+}
+.cont_congnitive {
+	position:relative;
+	
+	width: 1000px;
+	top:-48px;
+	margin: 0 auto;
+}
+#congnitive_tab li {
+	margin-top: 15px;
+	list-style-type: none;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	min-width: 114px;
+	height:31px;
+	font-size:14px;
+	line-height:31px;
+	text-align:center;
+	background-color: #4B4B4B;
+	color: #fff;
+	margin-right: 5px;
+	cursor:pointer;
+}
+#congnitive_tab .active {
+	background-color: #fff;
+	color: #4B4B4B;
+}
+.lianjie {
+	clear: both;
+	height: 32px;
+	line-height: 32px;
+}
+.lianjie a {
+	color: #4C4C4C;
+}	

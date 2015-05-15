@@ -1,0 +1,175 @@
+*{padding: 0;margin: 0;}
+body { font-family: "微软雅黑";}
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{font-size:12px;font-family: "微软雅黑";}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;border:none; background:none;}
+textarea{resize:none;}
+ul li {
+	list-style-type: none;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.font-16 {
+	font-size: 16px;
+}
+.font-14 {
+	font-size: 14px;
+}
+.content {
+	width: 780px;
+	height: 741px;
+	border: 1px solid #DDDDDD;
+	/*margin-right: 40px;*/
+	float: right;
+	margin-bottom: 30px;
+}
+.tab {
+	height: 59px;
+	border-bottom: 1px solid #DDDDDD;
+	line-height: 59px;
+
+}
+.tab li {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.shu {
+	display: block;
+	height: 26px;
+	width: 1px;
+	background-color: #DDDDDD;
+	margin-top: 18px;
+}
+.active {
+	color: #A5A5A5;
+}
+.tab .surch {
+	margin-top: 17px;
+	height: 22px;
+	width: 120px;
+	padding-left: 10px;
+	color: #828282;
+	border: 1px solid #DDDDDD;
+}
+.tab .surchbutton {
+	display: block;
+	height: 24px;
+	width: 30px;
+	background: url(../images/xm1.gif)no-repeat;
+	margin-top: 17px;
+	margin-right: 20px;
+}
+.maincontent {
+	padding-top: 30px;
+	padding-left: 47px;
+
+}
+.maincontent .apply,.maincontent .contribute,.maincontent .acceptance {
+	width: 240px;
+	height: 40px;
+	display: block;
+	text-align:center;
+	line-height: 40px;
+	font-family: "黑体";
+	font-weight: bold;
+	color: #fff;
+}
+.maincontent .apply {
+	background: url(../images/xm2.gif);
+	z-index: 10px;	
+}
+.maincontent .contribute{
+	background: url(../images/xm4.gif);
+	margin-left: -16px;
+}
+.maincontent .acceptance {
+	background: url(../images/xm3.gif);
+	margin-left: -16px;
+}
+.basicinformation {
+	margin-top: 80px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.hide {
+	font-weight: normal;
+	padding-left: 23px;
+	background: url(../images/xm5.gif)no-repeat 2px;
+	margin-bottom: 22px;
+	color: #4B4B4B;
+}
+.list {
+	padding-left: 40px;
+	margin-bottom: 26px;
+}
+.projectname {
+	display: block;
+	margin-right: 27px;
+	color: #323232;
+}
+.contentp { 
+	display: block;	
+	color: #646464;
+}
+.file {
+	padding-left: 42px;
+}
+.choosefile,.cancelupload,.note {
+	display: block;
+	margin-bottom: 20px;
+}
+.choosefile {
+	background-color: #55C395;
+	color: #fff;
+	cursor: pointer;
+}
+.cancelupload {
+	color: #969696;
+	cursor: pointer;
+}
+.choosefile,.cancelupload {
+	width: 88px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.transfer {
+	position: relative;
+	left: -175px;
+	height: 30px;
+	width: 88px;
+	filter:alpha(opacity:0);
+	opacity: 0;                   
+}
+.note {
+	color: #969696;
+}
+.submit {
+	margin-top: 17px;
+}
+.submit a {
+	display: block;
+	text-decoration: none;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+.submitted  {
+	margin-left: 250px;
+	color: #fff;
+	background-color: #179763;
+
+}
+.return {
+	color: #323232;
+}

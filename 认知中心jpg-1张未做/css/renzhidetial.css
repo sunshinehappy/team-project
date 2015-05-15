@@ -1,0 +1,129 @@
+
+.contenttop {
+	padding: 30px;
+	border: 1px solid #E1E0E0;
+	width: 940px;
+	height: 320px;
+}
+.author {
+	
+	color: #E9963F
+}
+
+.contenttopleft {
+	width: 500px;
+	height:280px;
+	margin-right: 50px;
+}
+.contenttopleft p {
+   color: #4C4C4C;
+   line-height: 24px;
+}
+.contenttopleft h3 {
+	margin-bottom: 10px;
+	color: #2B1F11;
+}
+.contenttopleft .author, .contenttopleft .number {
+
+	display: block;
+	width: 100px;
+	height: 16px;
+	line-height: 16px;
+	margin-bottom: 26px;
+}
+.contenttopleft .number {
+	padding-left: 18px;
+	color: #47D747;
+	background:url(../images/rx.gif)no-repeat;
+}
+.contentdownleft {
+	width: 678px;
+	margin: 20px 20px 0px 0px;
+	border: 1px solid #E1E0E0; 
+}
+.contentdownright {
+	border: 1px solid #E1E0E0; 
+	width: 298px;
+	margin-top: 20px;
+}
+.contentdownleft h3 {
+	height: 69px;
+	border-bottom: 1px solid #E1E0E0; 
+	padding-left: 35px;
+	line-height: 69px;
+	font-size: 18px;
+	color: #2B1F11;
+
+}
+.contentdownleft p {
+	text-indent: 2em;
+	line-height: 20px;
+	padding:30px;
+	color: #4C4C4C;
+}
+.contentdownleft .picture {
+	width: 118px;
+	height: 120px;
+	
+	margin-left: 30px;
+	margin-top: 20px;
+	border:1px solid #D7D7D7;
+	margin-bottom:30px;
+
+}
+.picture .number {
+	padding-left: 25px;
+	height: 18px;
+	line-height: 18px;
+	
+}
+.contentdownleft .picture span {
+	
+	color: #AFAFAF;
+	margin-top:5px;
+	margin-left:5px;
+
+
+}
+.contentdownright h4 {
+	height: 55px;
+	border-bottom: 1px solid #E1E0E0;
+	padding-left: 30px;
+	line-height: 55px;
+	font-weight: normal;
+
+}
+.contentdownright h5 {
+	height: 25px;
+	line-height: 25px;
+}
+.contentdownnav {
+	margin: 20px 0 0 20px;
+}
+.contentdownnav p {
+	height: 20px;
+	line-height: 20px;
+}
+.contentdownnav span {
+	display: block;
+	padding-left: 18px;
+	width: 100px;
+	line-height: 18px;
+	color: #FEA649;
+	background: url(../images/rx.gif)no-repeat;
+}
+.more {
+	margin-top: 20px;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	border-top: 1px solid #E1E0E0;
+	color: #959595;
+}
+.evaluation {
+	display: block;
+	color: #fff;
+	width: 120px;
+	height: 32px;
+	background-color: #32B16E;
+}

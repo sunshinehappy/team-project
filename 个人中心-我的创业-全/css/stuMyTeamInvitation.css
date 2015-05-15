@@ -1,0 +1,179 @@
+.content_title{
+	width: 150px;
+	height: 24px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #189963;
+	float: left;
+	margin: 18px 0 18px 25px;
+}
+.content_btn{
+	width: 80px;
+	height: 14px;
+	float: right;
+	margin: 24px 32px 0 0;
+}
+.content_btn button{
+	width: 80px;
+	height: 14px;
+	background: #fff;
+	color: #189963;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	letter-spacing:2px;
+}
+ .content_detail form{
+	width: 692px;
+	height: 304px;
+	margin: 44px 60px 0 34px;
+	padding-left: 10px;
+	position: relative;
+
+}
+.team_invitation{
+	width: 400px;
+	height: 320px;	
+	float: left;
+	font-size: 14px;
+	color: #4c4c4c;
+}
+.team_invitation li{
+	margin-bottom: 16px;
+	font-size: 14px;
+}
+.team_invitation input[type="text"],.team_invitation select{
+	height: 32px;
+}
+.team_invitation textarea{
+	height: 84px;
+}
+.li_radio{
+	width: 260px;
+	height: 24px;
+}
+.li_radio input{
+	margin-left: 50px;
+}
+.input_box{
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	width: 304px;
+	background-color: #f3f3f6;
+} 
+.laber_textarea{
+	position: relative;
+	top:-60px;
+}
+/*用于定位textarea里的图片*/
+.special_li{
+	position:relative; 
+}
+.textarea_logo{
+	position: absolute;
+	top:57px;
+	left: 352px;
+	display: none;
+}
+.submit_btn{
+	width: 84px;
+	height: 38px;	
+	font-size: 14px;
+	border: 0;
+	cursor: pointer;
+	letter-spacing:8px;
+	border-radius: 5px;
+	color: #fff;
+	background: #189863;
+	position: absolute;
+	top: 228px;
+	left: 494px;
+}
+.system_refer{
+	height: 436px;
+	border-top: 1px solid #ccc;
+}
+.refer_header{
+	width: 714px;
+	height: 80px;
+	position: relative;
+	left: 30px;
+	border-bottom: 1px solid #ccc;
+}
+.refer_header h3{
+	font-size: 18px;
+	color: #189863;
+	width: 120px;
+}
+.refer_header button{
+	width: 60px;
+	height: 16px;
+	color: #189863;
+	border: 0;
+	background: #fff;
+	position: absolute;
+	font-size: 14px;
+	cursor: pointer;
+}
+.refer_header .invite{
+	width: 75px;
+	height: 24px;
+	border-radius: 5px;
+	background: #ea9810;
+	color: #fff;
+	font-size: 14px;
+	border: 0;
+	top:24px;
+	left: 638px;
+}
+.select_all{
+	top:50px;
+	left: -10px;
+}
+.select_another{
+	top:56px;
+	left: 656px;
+}
+.refer_box{
+	padding: 30px 2px;
+}
+.refer_box li{
+	float: left;
+	margin-right: 22px;
+	margin-left: 30px;
+}
+.member_item{
+	width: 140px;
+	height: 42px;
+	font-size: 14px;
+	color: #4c4c4c;
+	position: relative;
+	padding-bottom: 38px;
+}
+.member_item img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-right: 6px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.member_item .description p{
+	line-height: 24px;
+}
+.member_item .description p span{
+	display: inline-block;
+	margin-right: 4px;
+}
+.member_item .choose{
+	background: url(../images/logo_selected.png);
+	position: absolute;
+	top:0px;
+	left: 28px;
+	display: none;
+	width: 13px;
+	height: 13px;
+}
+.js_border{
+	border:2px solid #299f6d;
+}

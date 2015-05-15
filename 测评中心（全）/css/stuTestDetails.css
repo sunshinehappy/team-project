@@ -1,0 +1,311 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,p,ul,ol,dl,dt,dd,form,input,textarea,th,td,select { margin:0;padding:0;}
+em { font-style:normal}
+a { text-decoration:none; color:#323232;}
+li { list-style:none;}
+img { border:none; vertical-align:top;}
+table{ border-collapse:collapse;}
+textarea{ resize:none;overflow:auto;}
+body {
+	font-size:12px;
+	font-family:"微软雅黑","黑体";
+}
+/****************下面是header部分****************/
+#header {
+	margin:0 auto;
+	width:100%;
+	height:128px;
+	background:url(../images/header_bg1.png);
+}
+		
+.header_up {
+	margin:0 auto;
+	width:1000px;
+	height:73px;
+}
+.header_down {
+	margin:0 auto;
+	width:1000px;
+	height:54px;
+	position:relative;
+	}
+.logo,.menu {
+	float:left;
+}
+.search,.login {
+	float:right;
+}
+
+.search {
+	padding-top:42px;
+	position:relative;
+}
+
+.search_input{
+	border-top-left-radius:6px;
+	border-bottom-left-radius:6px;
+    border: 1px solid #959595;
+	width:100px;
+	height:16px;
+	color:#FFF;
+	background:#959595;
+	position:absolute;
+	top:44px;
+	right:59px;
+}
+.contact_us{
+	display:inline-block;
+	height:24px;
+	line-height:24px;
+}
+.search_bg{
+	position:absolute;
+	top:44px;
+	right:57px;
+}
+.search_bg img{
+	width:19px;
+	height:17px;
+}
+.search a,.login a {
+	color:#3d3d3d;
+
+ }
+.search a:hover,.login a:hover{
+	color:#268bd9;
+}
+
+.menu li {
+	float:left;
+	margin-left:45px;
+	padding-top:10px; 
+	text-align:center;
+}
+.menu li a {
+	font-size:18px;
+	color:#3d3d3d;  
+}
+
+.menu li:hover a {
+	color:#268bd9;
+}
+
+.login {
+	height:23px;
+	margin-top:33px;	
+}
+.login img {
+	width:12px;
+	height:12px;
+}
+/*登陆之后的下拉菜单*/
+.loginAfter{
+	position:absolute;
+	right:-4px;
+	top:55px;
+	display:none;
+	z-index:100;
+}
+.loginAfter li {
+	text-align:center;
+	width:84px;
+	height:35px;
+	line-height:35px;
+	border-left:1px solid #028e98;
+	border-right:1px solid #028e98;
+	border-bottom:1px solid #b2e9ec;
+	background:url(../images/loginAfterListBg.png); 
+}
+.loginAfter li a{
+	color:#3d3d3d; 
+}
+.loginAfter li a:hover{
+	color:#268bd9;
+}	
+/****************下面是text-head部分****************/
+.text-head{
+	position:relative;
+	/*width:1152px;*/
+	width:100%;
+	height:150px;
+	/*background:#22d2c8;*/
+	background:url(../images/head.png) no-repeat;
+	}
+.text-head .title{
+	position:absolute;
+	top:50px;
+	left:176px;
+	color:#FFF;
+	width:108px;
+	height:50px;
+	background:url(../images/center.png) no-repeat;
+	}
+.text-head .right{
+	position:absolute;
+	top:0px;
+	right:260px;
+	width:319px;
+	height:150px;
+	background:url(../images/head-right.png) no-repeat;
+	}
+.text-head .nav{
+	position:absolute;
+	bottom:0px;
+	left:176px;
+	}
+.nav ul li{
+	list-style:none;
+	float:left;
+	width:114px;
+	height:35px;
+	background:#333;
+	margin-right:5px;
+	text-align:center;
+	line-height:35px;
+	}
+.nav ul li a{
+	display:block;
+	color:#fff;
+	font-size:14px;
+	}
+.nav .nav-cur a{
+	background:#fff;
+	color:#000;
+	}
+/****************下面是line部分****************/
+.line{
+	width:1002px;
+	height:20px;
+	/*background:yellow;*/
+	margin:8px auto;
+	}
+.line li{
+	list-style:none;
+	float:left;
+	}
+.line ul li a:hover{
+	color:#000;
+	}
+/****************下面是detail-con部分****************/
+.detail-con{
+	margin:0px auto 30px;
+	width:1002px;
+	height:auto;
+	border:1px solid #ccc;
+	box-shadow:0px 0px 3px #ccc;
+	color:#333;
+	}
+.detail-con .tit{
+	margin:10px auto;
+	text-align:center;
+	font-size:18px;
+	}
+.detail-con .progress{
+	margin:10px 66px;
+	width:1024px;
+	height:50px;
+	font-size:14px;
+	}
+/****************下面是main部分****************/
+.detail-con .main{
+	}
+.main .choice{
+	position:relative;
+	left:66px;
+	margin:10px 0px;
+	}
+.choice .main-num{
+	font-size:16px;
+	}
+.choice .main-tit{
+	position:absolute;
+	left:60px;
+	font-size:16px;
+	}
+.choice form{
+	font-size:14px;
+	}
+.choice .option{
+	/*background:red;*/
+	margin:18px 0px 18px 64px;
+	}
+.main .prev a{
+	display:block;
+	margin:30px auto;
+	width:122px;
+	height:32px;
+	background:#39af6f;
+	/*background:#00DF70;*/
+	text-align:center;
+	line-height:30px;
+	color:#FFF;
+	}
+/****************下面是footer部分****************/
+#footer {
+	margin:0 auto;
+	width:100%;
+	height:90px;
+	border-top:1px solid #c0c0c0; 
+	background:#e2e2e2;	
+}
+#footer ul {
+	margin:0 auto;
+	width:1000px;
+	height:90px;
+}
+#footer ul li {
+	float:left;
+	width:82px;
+	line-height:90px;
+	text-align:left;
+}
+#footer ul li a {
+	color:#969696; 
+
+}
+#footer ul li a:hover{
+	color:#268bd9;
+};
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+

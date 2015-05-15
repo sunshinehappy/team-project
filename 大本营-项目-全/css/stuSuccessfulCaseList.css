@@ -1,0 +1,189 @@
+body,h1,h2,h3,h4,h5,p,ul,ol,dl,dt,dd,form,input,textarea,th,td,select { margin:0;padding:0;}
+em { font-style:normal}
+a { text-decoration:none;}
+li { list-style:none;}
+img { border:none; vertical-align:top;}
+table{ border-collapse:collapse;}
+textarea{ resize:none;overflow:auto;}
+*{font-family:'微软雅黑';}
+#nav {
+	margin:0 auto;
+	width:1349px;
+	height:128px;
+	background:url(../images/nav_bg.png);
+	position:relative;
+}
+.nav {
+	margin-left:187px;
+}
+.pro {
+	position:absolute;
+	top:10px;
+	left:190px;
+	z-index:5;
+}
+.dream {
+	position:absolute;
+	top:10px;
+	z-index:5;
+	left:950px;
+}
+.nav li {
+	width:130px;
+	height:30px;
+	float:left;
+	text-align:center;
+	line-height:28px;
+	margin:98px 3px 0 1px;
+	background:white;
+	cursor:pointer;
+	font-size:16px;
+}
+#nav .nav .current_tab {
+	background:#4C4C4C;
+	color:white;
+}
+#wrap {
+	margin:0 auto;
+	padding:10px;
+	width:990px;
+	height:auto;
+	overflow:auto;
+}
+.route {
+	margin-left:7px;
+	margin-bottom:30px;
+}
+.route li {
+	float:left;
+	margin:2px;
+	font-size:13px;
+}
+.route a {
+	color:#7A7A7A;
+}
+.route a:hover {
+	color:#333333;
+}
+#cases_top {
+	overflow:auto;
+	width:970px;
+	margin:0 auto;
+	border:1px solid #C8C8C8;
+}
+.rank_tab {
+	font-size:14px;
+}
+.rank_tab li{
+	float:left;
+	border-right:1px solid #C8C8C8;
+	color:#7A7A7A;
+	padding-right:20px;
+	padding-left:10px;
+	background:url(../images/arrow_price.png) no-repeat right 50%;
+	font-size:14px;
+	line-height:38px;
+	text-align:center;
+	cursor:pointer;
+}
+.rank_tab .current {
+	color:#333333;
+	background:none;
+	padding-right:8px;
+}
+.input_form {
+	float:right;
+	margin:5px 30px 5px 0;
+	background:pink;
+	overflow:auto;
+}
+.search_mag {
+	background:url(../images/mag.png); 
+	width:30px;
+	height:24px;
+	border:none;
+	cursor:pointer;
+	margin-left:0;
+	float:left;
+}
+.search_key {
+	width:130px;
+	height:22px;
+	color:#959595;
+	font-size:14px;
+	background:#F5F5F5;
+	border:1px solid #C8C8C8;
+	margin-right:0;
+	float:left;
+	padding-left:10px;
+}
+#mainContent {
+	width:970px;
+	overflow:auto;
+	margin:0 auto;
+	clear:both;
+	border:1px solid #C8C8C8;
+	padding-top:30px;
+	padding-bottom:30px;
+	margin-bottom:40px;
+}
+.case h2 {
+	font-weight:normal;
+}
+.case {
+	width:210px;
+	float:left;
+	margin:15px;
+	border:1px solid #EDEDED;
+	position:relative;
+}
+.case_pic {
+	overflow:hidden;
+    margin:0 auto;
+	width:210px;
+}
+.case_name {
+	font-size:16px;
+	margin:15px auto 8px 10px;
+}
+.case_name a {
+    color:#7A7A7A;
+}
+.case_name a:hover {
+	color:#333333;
+}
+.case_price {
+	font-size:14px;
+	color:#FF7200;
+	margin:0 auto 10px 10px;
+}
+.case h3 {
+	color:#959595;
+	margin:0 0 10px 10px;
+	float:left;
+	font-weight:normal;
+	font-size:12px;
+}
+.bidder {
+	color:#959595;
+	margin:0 0 20px 0;
+	float:left;
+	font-size:12px;
+}
+.number {
+	color:#959595;
+	font-size:12px;
+}
+.times {
+	font-size:12px;
+	color:#959595;
+	clear:both;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+.success img {
+	position:absolute;
+	right:-8px;
+	bottom:10px;
+	z-index:3;
+}

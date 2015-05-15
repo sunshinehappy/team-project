@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,h1,h2,h3,h4,h5,p,ul,ol,dl,dt,dd,form,input,textarea,th,td,select { margin:0;padding:0;}
+em { font-style:normal}
+a { text-decoration:none;}
+li { list-style:none;}
+img { border:none; vertical-align:top;}
+table{ border-collapse:collapse;}
+textarea{ resize:none;overflow:auto;}
+.shadow{
+	border: 1px solid #DDD;
+	box-shadow: 0 0 4px #DDD;
+    -moz-box-shadow: 0 0 4px #DDD;
+    -webkit-box-shadow: 0 0 4px #DDD;
+}
+body{
+	margin:0 auto;
+	padding:0;
+	font-family:"黑体";
+	font-family:"微软雅黑";
+}
+
+#container{
+	margin:0 auto;
+	width:1000px;
+	height:736px;
+	color:#999999;
+	font-size:12px;
+}
+#load{
+	width:100%;
+	height:30px;
+	color:#666;
+	font-size:12px;
+	line-height:30px;
+}
+#load a{
+	color:#4c4c4c;
+}
+
+#myjobmatched{
+    float:right;
+	width:780px;
+	height:663px;
+	font-size:14px;
+}		
+#tab{
+	margin-left:0;
+	margin-top:0;
+	width:100%;
+	height:60px;
+	font-size:16px;
+	border-bottom:1px solid #CCC;
+}
+#tab li{
+	margin-top:14px;
+	margin-left:-1px;
+	float:left;
+	height:26px;
+	width:108px;
+	text-align:center;
+	line-height:30px;	
+	border-left:1px solid #CCC;
+}
+.taba{
+	color:#999999;
+}
+.taba a{
+	color:#999999;
+}
+.tabcourse{
+	font-size:18px;
+	color:#323232;
+}
+.tabcourse a{
+	font-size:18px;
+	color:#323232;
+}
+#jobmatched{
+	width:100%;
+	heigth:603px;
+	font-size:14px;
+}	
+#matched{
+	width:100%;
+	height:50px;
+	}
+#matched .subscription{
+	float:left;
+	width:108px;
+	height:50px;
+	font-size:16px;
+	color:#323232;
+	text-align:center;
+	line-height:50px;
+	display:block;
+	}
+#matched .resumecom{
+	float:left;
+	margin-left:0px;
+	width:670px;
+	height:50px;
+	color:#3f3f3f;
+	text-align:left;
+	font-size:12px;
+	line-height:50px;
+	display:block;
+	}
+#message{
+	width:100%;
+	height:420px;
+	color:#323232;	
+}
+#message li{
+	width:100%;
+	height:60px;
+	line-height:60px;	
+}
+.adv{
+	height:48px;
+	width:618;
+	margin-left:152px;
+	font-size:16px;
+	line-height:48px;
+}
+.adv p{
+	float:right;
+	width:350px;
+	margin-right:240px;
+	display:block;
+}
+.jobnames{
+	float:left;
+	width:316px;
+/*	height:180px;*/
+	text-align:right;
+/*	border:1px solid #06F;*/
+}
+.jobvalues{
+	float:left;
+	margin-left:18px;
+	width:430px;
+/*	height:180px;*/
+	text-align:left;
+/*	border:1px solid #06F;*/
+}
+.jobtext{
+	width:200px;
+	height:30px;
+	border-radius:4px;
+	border:1px solid #999999;
+}
+.jobvalues-btn{
+	margin-right:13px;
+	width:30px;
+	height:30px;
+	font-size:12px;
+	border:1px solid #d8d8d8;
+	border-radius:3px;
+	background:#FFF;
+}
+.pitch{
+	margin-right:13px;
+	width:30px;
+	height:30px;
+	font-size:12px;
+	border:1px solid #56c496;
+	background-image:url(../images/jobmatched-btn.jpg)
+}
+#btn{
+	width:100%;
+	height:80px;
+	text-align:center; 
+	line-height:80px;
+}
+#btn #submit{
+	width:100px;
+	height:40px;
+	color:#f2faf6;
+	background:#189863;
+	border:none;
+}
+#btn #reset{
+	width:100px;
+	height:40px;
+	color:#323232;
+	background:#ffffff;
+	border:none;
+}
+
+
+
+
+
+
+
+
+

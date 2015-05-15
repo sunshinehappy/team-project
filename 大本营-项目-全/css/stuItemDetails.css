@@ -1,0 +1,267 @@
+body,h1,h2,h3,h4,h5,p,ul,ol,dl,dt,dd,form,input,textarea,th,td,select { margin:0;padding:0;}
+em { font-style:normal}
+a { text-decoration:none;}
+li { list-style:none;}
+img { border:none; vertical-align:top;}
+table{ border-collapse:collapse;}
+textarea{ resize:none;overflow:auto;}
+*{font-family:'微软雅黑';}
+#nav {
+	margin:0 auto;
+	width:1349px;
+	height:128px;
+	background:url(../images/nav_bg.png);
+	position:relative;
+}
+.pro {
+	position:absolute;
+	top:10px;
+	left:190px;
+	z-index:5;
+}
+.dream {
+	position:absolute;
+	top:10px;
+	z-index:5;
+	left:950px;
+}
+.nav {
+	margin-left:187px;
+}
+.nav li {
+	width:130px;
+	height:30px;
+	float:left;
+	text-align:center;
+	line-height:28px;
+	margin:98px 3px 0 1px;
+	background:white;
+	cursor:pointer;
+	font-size:16px;
+}
+#nav .nav .current_tab {
+	background:#4C4C4C;
+	color:white;
+}
+#wrap {
+	margin:0 auto;
+	padding:10px;
+	width:990px;
+	height:auto;
+	overflow:auto;
+}
+.route {
+	margin-left:7px;
+	margin-bottom:30px;
+}
+.route li {
+	float:left;
+	margin:2px;
+	font-size:13px;
+}
+.route a {
+	color:#7A7A7A;
+}
+.route a:hover {
+	color:#333333;
+}
+#float_left {
+	width:660px;
+	padding:15px;
+	float:left;
+	margin-left:10px;
+	border:1px solid #C8C8C8;
+	position:relative;
+	height:215px;
+	margin-bottom:15px;
+}
+#float_right {
+	float:right;
+	width:260px;
+	height:238px;
+	border:1px solid #C8C8C8;
+	margin-bottom:15px;
+}
+.reg_sub {
+	margin:30px auto 30px 40px;
+}
+.reg_sub li {
+	float:left;
+	margin-right:75px;
+	margin-bottom:20px;
+	font-size:16px;
+	color:#5A5A5A;
+}
+#float_right {
+	font-size:14px;
+    padding:3px;
+}
+.num {
+	font-size:13px;
+}
+.meg_employer {
+	margin:150px auto 0 15px;
+	clear:both;
+	font-size:12px;
+	color:#5A5A5A;
+}
+.meg_employer li {
+	margin-bottom:10px;
+}
+.title_wangted {
+	font-size:26px;
+	color:#323232;
+	letter-spacing:2px;
+	width:654px;
+	height:50px;
+	margin-left:5px;
+}
+.rmb_mark {
+	width:27px;
+	height:25px;
+	float:left;
+	background:url(../images/rmb.png); 
+	margin-right:4px;
+}
+.price {
+	float:left;
+	margin-left:2px;
+	line-height:23px;
+	color:#FC7427;
+	font-size:16px;
+}
+#green_btn {
+	width:130px;
+	height:33px;
+	background:#069962;
+	color:#fff;
+	float:right;
+	margin-right:9px;
+	text-align:center;
+	line-height:30px;
+	font-size:16px;
+	border:none;
+}
+.pro_status {
+	clear:both;
+	margin-top:20px;
+	font-size:14px;
+	color:#333333;
+	letter-spacing:1px;
+}
+.status {
+	color:#7A7A7A;
+	letter-spacing:1px;
+}
+.bar {
+	width:325px;
+	height:15px;
+	background:url(../images/bar.png); 
+	float:left;
+	margin-top:40px;
+}
+.current_bar {
+	background:url(../images/bar_current.png); 
+	margin-top:40px;
+}
+.progress {
+	font-size:14px;
+	color:#7A7A7A;
+}
+.progress_001 {
+	position:absolute;
+	margin-top:60px;
+    margin-left:10px;
+}
+.progress_002 {
+	position:absolute;
+	margin-top:80px;
+	margin-left:280px;
+}
+.progress_003 {
+    position:absolute;
+	margin-top:70px;
+	margin-left:580px;
+}
+#demand {
+	width:920px;
+	height:auto;
+	border:1px solid #C8C8C8;
+	padding:30px;
+	clear:both;
+	margin-left:10px;
+	margin-bottom:40px;
+	overflow:auto;
+}
+.demand_title {
+	font-size:16px;
+	color:#5A5A5A;
+	font-weight:none;
+	margin-bottom:15px;
+	font-weight:normal;
+	margin-top:20px;
+}
+.demand li{
+	color:#5A5A5A;
+	font-size:13px;
+	margin-bottom:4px;
+}
+.demand {
+	border-bottom:1px solid #C8C8C8;
+	padding-bottom:20px;
+}
+.release_title {
+	font-size:13px;
+	color:#ADADAD;
+	margin-bottom:20px;
+}
+.release_name {
+	font-size:15px;
+	color:#5A5A5A;
+	margin-right:10px;
+}
+.release_time {
+	margin-right:5px;
+	font-size:12px;
+	color:#7A7A7A;
+}
+.release_cont {
+	color:#5A5A5A;
+	font-size:12px;
+	margin:15px auto 3px 0;
+	line-height:22px;
+}
+#reply {
+	border-bottom:1px dashed #C8C8C8;
+	overflow:auto;
+	margin-bottom:20px;
+}
+.reply {
+	font-size:15px;
+	color:#7a7a7a;
+	cursor:pointer;
+	float:right;
+}
+textarea {
+	width:100%;
+	height:190px;
+	background:#F5F5F5;
+	position:relative;
+	border:1px solid #D8D8D8;
+}
+#reply_cont {
+	position:relative;
+	height:200px;
+}
+.send_btn {
+	background:#069962;
+	color:#fff;
+	float:right;
+	text-align:center;
+	line-height:30px;
+	font-size:14px;
+	width:128px;
+	height:37px;
+	margin:10px -2px 0 0;
+	border:none;
+}

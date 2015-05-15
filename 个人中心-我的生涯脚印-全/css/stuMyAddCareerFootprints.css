@@ -1,0 +1,127 @@
+﻿#content{
+	width: 778px;
+	height: 600px;
+	border: 1px solid #ccc;
+}
+#main{
+	width: 1008px;
+	height: 680px;
+	border: 1px solid white;
+}
+#subnav a{
+	color:#4c4c4c;
+}
+.content_detail ul{
+	margin:45px auto;
+	width:680px;	
+}
+.content_detail ul li{
+	position:relative;
+	font-size: 14px;
+	margin-top:20px;
+	font-family: "微软雅黑";
+	
+}
+
+.year,.mounth,.day,.content_detail ul li .name,.content_detail ul li .status,.content_detail ul li textarea,.content_detail ul li .imgsShow{
+	border-radius:4px;
+	border: 1px solid #bfbebe;
+	background: #f3f3f6;
+}
+.content_detail ul li .year,.content_detail ul li .mounth,.content_detail ul li .day{
+	width:110px;
+	height:30px;
+	
+}
+.content_detail ul li .name{
+	width:300px;
+	height:30px;
+
+}
+.content_detail ul li .status{
+	width:180px;
+	height:30px;
+
+}
+.content_detail ul li textarea{
+	width:576px;
+	height:140px;
+	margin-left:102px;
+}
+.content_detail ul li img{
+	display:none;
+	position:absolute;
+	right:0px;
+	bottom:0px;
+
+}
+.content_detail ul li .pictures{
+	display: inline-block;
+	margin-left:69px;
+}
+.content_detail ul li .imgsShow{
+	width:180px;
+	height:120px;
+	float:left;
+	line-height: 120px;
+	text-align: center;
+	
+}
+.content_detail ul li .imgsShowButton{
+	border-radius:4px;
+	margin-left: 30px;
+	padding-top: 70px;
+	float:left;
+}
+.content_detail ul li .choose,.content_detail ul li .remove{
+	display:inline-block;
+	width:90px;
+	height:30px;
+	border-radius:4px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.content_detail ul li .choose{
+	border: 1px solid #7bd9b2;
+	background: #7bd9b2;
+	color:#fff;
+
+}
+.content_detail ul li .choose:hover{
+	border: 1px solid #7bd9b2;
+	background: #56c496;
+}
+.content_detail ul li .remove{
+	border: 1px solid #bfbebe;
+	background: #f3f3f6;
+	color:#333333;
+}
+.content_detail ul li .remove:hover{
+	border: 1px solid #bfbebe;
+	background: #d8d8d8;
+}
+.content_detail ul li .add,.content_detail ul li .cancel{
+	display:inline-block;
+	width:120px;
+	height:40px;
+	border-radius:4px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.content_detail ul li .add{
+	border: 1px solid #32b16c;
+	background: #32b16c;
+	color:#fff;
+}
+.content_detail ul li .add:hover{
+	border: 1px solid #189863;
+	background: #189863;
+}
+.content_detail ul li .cancel{
+	border: 1px solid #ffffff;
+	background: #ffffff;
+	color:#939393;
+}
+.content_detail ul li .cancel:hover{
+	border: 1px solid #bfbebe;
+}

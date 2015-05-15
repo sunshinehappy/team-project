@@ -1,0 +1,265 @@
+
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,
+img,div,dl,dt,dd,input{margin:0;padding:0;}
+.submit,.sub,.txt,.lab,.child a,.req{font-family:"微软雅黑";}
+.match,.sub,.subnav a,.detail,.city a{font-size:14px;}
+#container,.icon,.txt,.sub,.more,.city,.city a,.ad_design,.garden_design{float:left;}
+
+#container{
+	width:100%;
+	height:auto;
+	}
+/*========  banner  =========*/
+.job_w{
+	width:100%;
+	height:150px;
+	background:url(../images/banner1.png) repeat-x;
+	}
+
+.job_center{
+	width:1500px;
+	height:150px;
+	margin:auto;
+	background:url(../images/bg_t1.png) no-repeat;
+	}
+
+.position1_icon{
+	float:left;
+	margin-top:30px;
+	margin-left:220px;
+	width:145px;
+ 	height:59px;
+ 	background:url(../images/position_logo_03.png) no-repeat;
+	}
+.position2_icon{
+	float:left;
+	margin-top:60px;
+	margin-left:650px;
+	width:145px;
+ 	height:59px;
+ 	background:url(../images/job_icon.png) no-repeat;
+	}
+#job_tab{
+	display:block;
+	height:30px;
+	float:left;
+	margin-left:120px;
+	margin-top:-1px;
+	}
+#job_tab li {
+	float: left;
+	padding-top:-4px;
+	padding-right: 20px;
+	min-width: 110px;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	background-color: #4B4B4B;
+	margin-right: 5px;
+	cursor:pointer;
+	color: #fff;
+	font-size:16px;
+}
+
+#job_tab .active {
+	background-color: #fff;
+	color:#666;
+}
+
+
+
+/*=========  content ===========*/
+.content{
+	margin:auto;
+	height:auto;
+	width:1000px;
+	}
+.job_search{
+	width:999px;
+	height:260px;
+	border:2px solid #CCC;
+	}
+.drop_pull{
+	width:999px;
+	height:170px;
+	float:left;
+	}
+.icon{
+	margin-top:20px;
+	margin-left:50px;
+	cursor:pointer;
+	height:45px;
+	}
+
+.txt{
+	margin-top:20px;
+	border:1px solid #CCC;
+	width:720px;
+	height:38px;
+	background:#f5f5f5;
+	border-left:none;
+	color:#969798;
+	}
+.sub{
+	width:80px;
+	height:40px;
+	background:#39af6f;
+	border:none;
+	margin-left:18px;
+	margin-top:20px;
+	color:#FFF;
+	cursor:pointer;
+
+	}
+.subnav{
+	width:1000px;
+	height:26px;
+	margin:0 auto;
+	}
+
+.subnav a{
+	line-height:28px;
+	color: #3e3e3e;
+	}
+.subnav a:hover{
+	color: #000;
+
+	}
+
+
+
+.lab{
+	letter-spacing:1px;
+	font-size:12px;
+	color:#808182;
+	line-height:40px;
+	text-align:40px;
+	}
+.more{
+	margin-top:19px;
+	}
+.city{
+	display:none;
+	width:245px;
+	height:130px;
+	background:#39af6f;
+	position:absolute;
+	top:358px;
+	left:852px;
+	}
+.city a{
+	color:#FFF;
+	margin-left:20px;
+	margin-top:12px;
+	}
+.city a:hover{color:#666;}
+.require{
+	width:1000px;
+	height:40px;
+	float:left;
+	}
+.req{
+	float:left;
+	margin-left:40px;
+	font-size:16px;
+	color:#3f3f3f;
+	font-size:12px;
+	}
+.child a{
+	float:left;
+	margin-left:30px;
+	color:#3f3f3f;
+	font-size:12px;
+	
+	}
+
+
+
+
+
+/*==========  职位信息  =============*/
+.pos_top{
+	 float:left;
+	 width:997px;
+	 height:43px;
+	 border-top:2px solid #CCC;
+	 border-left:2px solid #CCC;
+	 border-right:2px solid #CCC;
+	 line-height:40px;
+	 text-indent:2em;
+	 font-size:18px;
+	 color:#5d5045;
+	 margin-top:20px;
+	 background:#f5f5f5;
+	}
+
+.position{
+	float:left;
+	width:997px;
+	height:auto;
+	margin-bottom:70px;	
+	 border:2px solid #CCC;
+	}
+
+
+.position li{
+	width:997px;
+	height:140px;
+	border-top:1px solid #CCC;
+	}
+	
+.treatment{
+	width:320px;
+	height:120px;
+	float:left;
+	padding:10px 40px;
+	}
+	
+.choice{
+	float:left;
+	width:320px;
+	height:120px;
+	margin-left:20px;
+	padding:10px 0px;
+	}
+.match{
+	float:left;
+	margin-left:40px;
+	margin-top:50px;
+	color:#ff7e00;
+	}
+
+.stron{
+	float:left;
+	font-size:16px;
+	color:#C33;
+	margin-left:5px;
+	line-height:20px;
+	}
+
+.detail{
+	width:350px;
+	height:100px;
+	float:left;
+	margin-left:5px;
+	margin-top:5px;
+	letter-spacing:1px;
+	line-height:30px;
+	color:#3f3f3f;
+	}
+.choice_active{
+	background:#f5f5f5;
+	}
+.submit{
+/*	display:none;
+*/	float:left;
+	margin-left:25px;
+	cursor:pointer;
+	width:80px;
+	height:30px;
+	border:none;
+	background:#39af6f;
+	margin-top:45px;
+	color:#FFF;
+	font-size:12px;
+	}

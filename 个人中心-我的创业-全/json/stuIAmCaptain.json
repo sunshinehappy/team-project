@@ -1,0 +1,31 @@
+[{
+	"id":"1",
+	"teamName":"火龙队",
+	"status":"邀请中",
+	"memberLimit":"5",
+	"deadline":"2015-08-08"
+},{
+	"id":"2",
+	"teamName":"火龙队",
+	"status":"邀请中",
+	"memberLimit":"5",
+	"deadline":"2015-08-08"
+},{
+	"id":"3",
+	"teamName":"火龙队",
+	"status":"邀请中",
+	"memberLimit":"5",
+	"deadline":"2015-08-08"
+},{
+	"id":"4",
+	"teamName":"火龙队",
+	"status":"已完成",
+	"memberLimit":"5",
+	"deadline":"2015-08-08"
+},{
+	"id":"5",
+	"teamName":"火龙队",
+	"status":"已完成",
+	"memberLimit":"5",
+	"deadline":"2015-08-08"
+}]
